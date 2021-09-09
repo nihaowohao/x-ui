@@ -16,12 +16,12 @@
 
 # Debian/Ubuntu系统执行以下命令：
 
-bash apt update -y && apt install -y curl && apt install -y socat
+#apt update -y && apt install -y curl && apt install -y socat
 # CentOS系统执行以下命令：
 
-bash yum update -y && yum update -y && yum install -y socat
+#yum update -y && yum update -y && yum install -y socat
 # 运行Acme脚本
-bash <  curl https://get.acme.sh | sh
+#curl https://get.acme.sh | sh
 
 # 申请证书及密钥
 PS：修改代码中注释的域名，改为你自己的域名
