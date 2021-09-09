@@ -30,13 +30,13 @@ PS：修改代码中注释的域名，改为你自己的域名
 # 下载证书及密钥
 # ~/.acme.sh/acme.sh --installcert -d 你的域名 --key-file /root/private.key --fullchain-file /root/cert.crt
 # 安装&升级x-ui面板一键脚本
-bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
-```
+# bash <(curl -Ls https://raw.githubusercontent.com/nihaowohao/x-ui/master/install.sh)
+
 
 ##BBR2加速##
 # wget --no-check-certificate -q -O bbr2.sh "https://github.com/yeyingorg/bbr2.sh/raw/master/bbr2.sh" && chmod +x bbr2.sh && bash bbr2.sh auto
 ## 手动安装&升级
-1. 首先从 https://github.com/vaxilu/x-ui/releases 下载最新的压缩包，一般选择`amd64`架构
+1. 首先从 https://github.com/nihaowohao/x-ui/releases 下载最新的压缩包，一般选择`amd64`架构
 2. 然后将这个压缩包上传到服务器的`/root/`目录下，并使用`root`用户登录服务器
 
 > 如果你的服务器 cpu 架构不是`amd64`，自行将命令中的`amd64`替换为其他架构
