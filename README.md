@@ -12,6 +12,16 @@
 - 更多高级配置项，详见面板
 
 # 安装&升级
+# 安装更新运行环境
+
+# Debian/Ubuntu系统执行以下命令：
+
+bash apt update -y && apt install -y curl && apt install -y socat
+# CentOS系统执行以下命令：
+
+bash yum update -y && yum update -y && yum install -y socat
+# 运行Acme脚本
+bash   curl https://get.acme.sh | sh
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 ```
