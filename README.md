@@ -21,8 +21,13 @@ bash apt update -y && apt install -y curl && apt install -y socat
 
 bash yum update -y && yum update -y && yum install -y socat
 # 运行Acme脚本
-bash   curl https://get.acme.sh | sh
+bash <  curl https://get.acme.sh | sh
 ```
+#申请证书及密钥
+PS：修改代码中注释的域名，改为你自己的域名
+bash <~/.acme.sh/acme.sh --register-account -m xxxx@gmail.com
+bash <~/.acme.sh/acme.sh  --issue -d 你的域名   --standalone
+#安装&升级x-ui面板一键脚本
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 ```
 
