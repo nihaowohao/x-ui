@@ -26,6 +26,7 @@
 # 申请证书及密钥
 PS：修改代码中注释的域名，改为你自己的域名
 #~/.acme.sh/acme.sh --register-account -m xxxx@gmail.com
+
 #~/.acme.sh/acme.sh  --issue -d 你的域名   --standalone
 # 下载证书及密钥
 #~/.acme.sh/acme.sh --installcert -d 你的域名 --key-file /root/private.key --fullchain-file /root/cert.crt
